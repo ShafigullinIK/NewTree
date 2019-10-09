@@ -28,4 +28,9 @@ public class Item {
     public void setEnd(boolean end) {
         isEnd = end;
     }
+
+    public boolean isEnd(){
+        return isEnd;
+    }
+
 }
